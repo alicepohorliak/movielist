@@ -1,0 +1,42 @@
+@import '../../stylesheets/variables.scss';
+
+progress {
+    border: 0;
+    height: 10px;
+    width: calc(100% - 90px);
+    border-radius: 20px;
+    background-color: $light-grey;
+}
+
+progress::-webkit-progress-bar {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background-color: $light-grey;
+}
+
+progress::-webkit-progress-value {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background-color: $green;
+}
+
+progress::-moz-progress-bar {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background-color: $green;
+}
+
+.card {
+    &-group {
+        flex-wrap: wrap;
+    }
+
+    h6 {
+        font-family: $font-bold;
+        font-weight: bold;
+    }
+}
+
