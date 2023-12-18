@@ -1,8 +1,6 @@
 import React from 'react';
 import './MovieItem.scss';
 import DeleteIcon from '@material-ui/icons/Delete';
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
 import {Favorite, FavoriteBorderOutlined} from '@material-ui/icons';
 
 class MovieItem extends React.Component {
